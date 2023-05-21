@@ -18,7 +18,7 @@ export default function MovieModal({
     setModalOpen(false);
   });
   return (
-    <div className='persentation'>
+    <div className='presentation'>
       <div className='wrapper-modal'>
         <div className='modal' ref={ref}>
           <span className='modal-close' onClick={() => setModalOpen(false)}>x</span>
