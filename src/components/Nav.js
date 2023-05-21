@@ -30,7 +30,7 @@ const Nav = () => {
             alt='Netflix logo'
             src='https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg'
             className='nav_logo'
-            onClick={() => window.location.reload()}
+            onClick={() => navigate('/')}
         />
         <input
             type="text"
